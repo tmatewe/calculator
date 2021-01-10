@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Calculator</title>
+</head>
+<body><br><br><br>
+    <div class="container"></div>
+    <div id="main">
+    
+        
+    <form>
+        <input type="text" id="display"><br>
+        <button type="button" class="btn btn-light" value="" onclick="myDel()">DEL</button>
+        <button type="button" class="btn btn-light" onclick="myClear()">AC</button>
+        <button type="button" class="btn btn-light" onclick="myPercentage()">%</button>
+        <button type="button" class="btn btn-warning" value="/" onclick="myClick('/')">/</button><br>
+        <button type="button" class="btn btn-dark" value="9" onclick="myClick(9)">9</button>
+        <button type="button"class="btn btn-dark"  value="8" onclick="myClick(8)">8</button>
+        <button type="button" class="btn btn-dark" value="7" onclick="myClick(8)">7</button>
+        <button type="button" class="btn btn-warning" value="-" onclick="myClick('-')">-</button><br>
+        <button type="button" class="btn btn-dark" value="4" onclick="myClick(4)">4</button>
+        <button type="button" class="btn btn-dark" value="5" onclick="myClick(5)">5</button>
+        <button type="button" class="btn btn-dark" value="6" onclick="myClick(6)">6</button>
+        <button type="button" class="btn btn-warning" value="*" onclick="myClick('*')">x</button><br>
+        <button type="button" class="btn btn-dark" value="1" onclick="myClick(1)">1</button>
+        <button type="button" class="btn btn-dark" value="2" onclick="myClick(2)">2</button>
+        <button type="button" class="btn btn-dark" value="3" onclick="myClick(3)">3</button>
+        <button type="button" class="btn btn-warning" value="+" onclick="myClick('+')">+</button><br>
+        <button type="button" class="btn btn-dark" value="0" onclick="myClick(0)">0</button>
+        <button type="button" class="btn btn-dark" value="00" onclick="myClick(00)">00</button>
+        <button type="button" class="btn btn-dark" value="." onclick="myClick('.')">.</button>
+        <button type="button" class="btn btn-warning" value="=" onclick="calculate()">=</button>
+    </form>
+    <button class="btn btn-dark tawa">T1</button>
+
+</div>
+</div>
+   <script src="index.js"></script>
+</body>
+</html>
+
+
